@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Homepage - Coffee House</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="home">
+    
+    <!-- Preloader Start -->
+    <div class="preloader">
+        <div class="preloader-circles">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <div class="wrapper">
+
+        <!-- Header Start -->
+        <header class="header">
+            <div class="container">
+                <div class="header__body">
+                    <div class="header__logo logo">
+                        <a class="logo__link" href="index.html">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="header__navigation">
+                        <nav class="header__nav nav">
+                            <button class="nav__close-btn" type="button" aria-label="close mobile navigation">
+                                <img src="images/icons/close-icon.svg" alt="close icon">
+                            </button>
+                            <ul class="nav__list">
+                                <li class="nav__item">
+                                    <a class="nav__link nav__link--current" href="index.html">Home</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="about.html">About</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="menu.html">Menu</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="gallery.html">Gallery</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="blog.html">Blog</a>
+                                </li>
+                                <li class="nav__item">
+                                    <a class="nav__link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <button class="header__burger" type="button" aria-label="open mobile navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+
+        <!-- Main Start -->
+        <main class="main">
+            <!-- Hero Start -->
+            <section class="hero">
+                <h1 class="visually-hidden">Coffee House</h1>
+                <div class="container">
+                    <div class="hero__body">
+                        <div class="hero__logo">
+                            <img src="images/logo-hero.png" alt="logo">
+                        </div>
+                        <div class="hero__text">
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi provident tenetur quo delectus perferendis! Velit sit eum error adipisci voluptates</p>
+                        </div>
+                        <a class="hero__link button" href="menu.html">Our menu</a>
+                    </div>
+                </div>
+            </section>
+            <!-- Hero End -->
+
+            <!-- Reservation Start -->
+            <section class="main__reservation reservation">
+                <div class="container">
+                    <h2 class="visually-hidden">Book a table</h2>
+                    <form class="reservation__form bookform ajax-form">
+                        <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="Coffee House">
+                            <input type="hidden" name="admin_email" value="na_studio@a94239.hostus01.fornex.host">
+                            <input type="hidden" name="form_subject" value="Booking Form">
+                        <!-- END Hidden Required Fields -->
+                        <div class="bookform__box">
+                            <input class="bookform__input" type="text" name="guestst number" id="gueststNumber" placeholder="Number of Guests" required>
+                        </div>
+                        <div class="bookform__box">
+                            <input class="bookform__input" type="text" name="date" id="bookingDate" placeholder="dd/mm/yyyy" required>
+                        </div>
+                        <div class="bookform__box">
+                            <input class="bookform__input" type="text" name="time" id="bookinkTime" placeholder="Time (6 PM)" required>
+                        </div>
+                        <button class="bookform__button button" type="submit">Book a table</button>
+                    </form>
+                </div>
+            </section>
+            <!-- Reservation End -->
+
+            <!-- Advantages Start -->
+            <section class="main__advantages advantages">
+                <div class="container">
+                    <h2 class="advantages__heading heading">Our Advantages</h2>
+                    <div class="advantages__grid">
+                        <div class="advantages__item">
+                            <div class="advantages__img">
+                                <img src="images/advantages/advantages-1.jpg" alt="advantages 1">
+                            </div>
+                            <div class="advantages__info">
+                                <h3 class="advantages__title">High Quality Product</h3>
+                                <div class="advantages__text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quam fuga nemo architecto eaque eligendi, iure ad a laudantium necessitatibus temporibus! Fugiat, quam!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantages__item">
+                            <div class="advantages__img">
+                                <img src="images/advantages/advantages-2.jpg" alt="advantages 2">
+                            </div>
+                            <div class="advantages__info">
+                                <h3 class="advantages__title">Professional Stuff</h3>
+                                <div class="advantages__text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quam fuga nemo architecto eaque eligendi, iure ad a laudantium necessitatibus temporibus! Fugiat, quam!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="advantages__item">
+                            <div class="advantages__img">
+                                <img src="images/advantages/advantages-3.jpg" alt="advantages 3">
+                            </div>
+                            <div class="advantages__info">
+                                <h3 class="advantages__title">+15K Happy Clients</h3>
+                                <div class="advantages__text">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, quam fuga nemo architecto eaque eligendi, iure ad a laudantium necessitatibus temporibus! Fugiat, quam!</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- Advantages End -->
+
+            <!-- Specials Start -->
+            <section class="main__specials specials">
+                <div class="container">
+                    <h2 class="specials__heading heading">Our specials</h2>
+
+                    <div class="specials__slider swiper">
+                        <div class="specials__wrapper swiper-wrapper">
+                            <div class="specials__item swiper-slide">
+                                <img src="images/specials/special-1.jpg" alt="special 1">
+                                <a class="specials__link" href="menu.html" aria-label="link to menu"></a>
+                            </div>
+                            <div class="specials__item swiper-slide">
+                                <img src="images/specials/special-2.jpg" alt="special 2">
+                                <a class="specials__link" href="menu.html" aria-label="link to menu"></a>
+                            </div>
+                            <div class="specials__item swiper-slide">
+                                <img src="images/specials/special-3.jpg" alt="special 3">
+                                <a class="specials__link" href="menu.html" aria-label="link to menu"></a>
+                            </div>
+                            <div class="specials__item swiper-slide">
+                                <img src="images/specials/special-4.jpg" alt="special 4">
+                                <a class="specials__link" href="menu.html" aria-label="link to menu"></a>
+                            </div>
+                            <div class="specials__item swiper-slide">
+                                <img src="images/specials/special-5.jpg" alt="special 5">
+                                <a class="specials__link" href="menu.html" aria-label="link to menu"></a>
+                            </div>
+                            <div class="specials__item swiper-slide">
+                                <img src="images/specials/special-6.jpg" alt="special 6">
+                                <a class="specials__link" href="menu.html" aria-label="link to menu"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Specials End -->
+
+            <!-- Offer Start -->
+            <section class="main__offer offer">
+                <div class="container">
+                    <div class="offer__grid">
+                        <div class="offer__info">
+                            <h2 class="offer__heading heading">Happy hour specials</h2>
+                            <h3 class="offer__subtitle">Get your dessert for free!</h3>
+                            <div class="offer__text">
+                                <p>Order a Cup of Coffee Every Day <span>From 1pm - 3pm</span> and Get Your Dessert For Free!</p>
+                            </div>
+                            <a class="offer__link button" href="menu.html">Our menu</a>
+                        </div>
+
+                        <div class="offer__img">
+                            <img src="images/offer-img.png" alt="offer image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Offer End -->
+
+            <!-- Testimonials Start -->
+             <section class="main__testimonials testimonials">
+                <div class="container">  
+                    <h2 class="testimonials__heading heading">Feedback from our clients</h2>
+                    <div class="testimonials__slider swiper">
+                        <div class="testimonials__wrapper swiper-wrapper">
+                            <div class="testimonials__slide swiper-slide">
+                                <div class="testimonials__content">
+                                    <div class="testimonials__text">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi provident tenetur quo delectus perferendis! Velit sit eum error adipisci voluptates</p>
+                                    </div>
+                                    <h3 class="testimonials__name">Jacob Jones</h3>
+                                </div>
+                            </div>
+                            <div class="testimonials__slide swiper-slide">
+                                <div class="testimonials__content">
+                                    <div class="testimonials__text">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi provident tenetur quo delectus perferendis! Velit sit eum error adipisci voluptates</p>
+                                    </div>
+                                    <h3 class="testimonials__name">Bessie Cooper</h3>
+                                </div>
+                            </div>
+                            <div class="testimonials__slide swiper-slide">
+                                <div class="testimonials__content">
+                                    <div class="testimonials__text">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi provident tenetur quo delectus perferendis! Velit sit eum error adipisci voluptates</p>
+                                    </div>
+                                    <h3 class="testimonials__name">Robert Fox</h3>
+                                </div>
+                            </div>
+                            <div class="testimonials__slide swiper-slide">
+                                <div class="testimonials__content">
+                                    <div class="testimonials__text">
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi provident tenetur quo delectus perferendis! Velit sit eum error adipisci voluptates</p>
+                                    </div>
+                                    <h3 class="testimonials__name">Ester Howard</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonials End -->
+
+            <!-- Blog Start -->
+            <section class="main__blog blog">
+                <div class="container">
+                    <a class="blog__more-btn button" href="blog.html">Learn more</a>
+                    <h2 class="blog__heading heading">Our blog posts</h2>
+                    <div class="blog__grid">
+                        <article class="blog__item">
+                            <div class="blog__thumb">
+                                <img src="images/blog/blog-img-1.jpg" alt="blog-1">
+                            </div>
+                            <div class="blog__content">
+                                <h3 class="blog__title">
+                                    <a href="#">Types of coffee beans</a>
+                                </h3>
+                                <div class="blog__details">
+                                    <div class="blog__author">By Jane Doe</div>
+                                    <div class="blog__date"><time datetime="2025-09-09">09.09.2025</time></div>
+                                </div>
+                                <div class="blog__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Euismod pellentesque placerat tincidunt nunc blandit risus commodo nisl ipsum. </p>
+                                </div>
+                                <a class="blog__link" href="#">Read more</a>
+                            </div>
+                        </article>
+                        <article class="blog__item">
+                            <div class="blog__thumb">
+                                <img src="images/blog/blog-img-2.jpg" alt="blog-2">
+                            </div>
+                            <div class="blog__content">
+                                <h3 class="blog__title">
+                                    <a href="#">The history of coffee origins</a>
+                                </h3>
+                                <div class="blog__details">
+                                    <div class="blog__author">By Jane Doe</div>
+                                    <div class="blog__date"><time datetime="2026-03-01">01.03.2026</time></div>
+                                </div>
+                                <div class="blog__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Euismod pellentesque placerat tincidunt nunc blandit risus commodo nisl ipsum. </p>
+                                </div>
+                                <a class="blog__link" href="#">Read more</a>
+                            </div>
+                        </article>
+                        <article class="blog__item">
+                            <div class="blog__thumb">
+                                <img src="images/blog/blog-img-3.jpg" alt="blog-3">
+                            </div>
+                            <div class="blog__content">
+                                <h3 class="blog__title">
+                                    <a href="#">Coffee recipes</a>
+                                </h3>
+                                <div class="blog__details">
+                                    <div class="blog__author">By Jane Doe</div>
+                                    <div class="blog__date"><time datetime="2026-03-11">11.03.2026</time></div>
+                                </div>
+                                <div class="blog__text">
+                                    <p>Lorem ipsum dolor sit amet consectetur. Euismod pellentesque placerat tincidunt nunc blandit risus commodo nisl ipsum. </p>
+                                </div>
+                                <a class="blog__link" href="#">Read more</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <!-- blog End -->
+
+        </main>
+        <!-- Main End -->
+
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__logo logo">
+                    <a class="logo__link" href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="footer__body">
+                    <div class="footer__box">
+                        <h3 class="footer__title">Navigation bar</h3>
+                        <ul class="footer__list navigation">
+                            <li class="footer__item">
+                                <a class="footer__link" href="index.html">Home</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="about.html">About</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="menu.html">Menu</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="gallery.html">Blog</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__box">
+                        <h3 class="footer__title">Support</h3>
+                        <ul class="footer__list support">
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Terms of Use</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Privacy Policy</a>
+                            </li>
+                            <li class="footer__item">
+                                <a class="footer__link" href="#">Web Accessibility</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__box footer__box--social">
+                        <h3 class="footer__title">Follow us!</h3>
+                        <ul class="footer__social social">
+                            <li class="social__item">
+                                <a class="social__link" href="#" aria-label="facebook">
+                                    <img src="images/icons/fb-icon.svg" alt="facebook">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#" aria-label="instagram">
+                                    <img src="images/icons/instagram-icon.svg" alt="instagram">
+                                </a>
+                            </li>
+                            <li class="social__item">
+                                <a class="social__link" href="#" aria-label="linkedin">
+                                    <img src="images/icons/linkedin-icon.svg" alt="linkedin">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__box footer__box--subscribe">
+                        <h3 class="footer__title">Subscribe</h3>
+                        <form class="footer__subscribe-form" action="#">
+                            <input class="footer__subscribe-input" type="email" name="email" aria-label="user email" placeholder="Your Email" required>
+                            <button class="footer__subscribe-button button" type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer__copyright">
+                    <p>&copy;2026 Coffee House. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <!-- Scroll Up Start -->
+        <div class="scroll-up">
+            <button class="scroll-up__button" type="button" aria-label="scroll to top">
+                <img src="images/icons/arrow-up.svg" alt="scroll up arrow">
+            </button>
+        </div>
+        <!-- Scroll Up End -->
+    </div>
+
+    <!-- JS Links -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
